@@ -38,3 +38,32 @@ term_idx = IP_range / split_cnt;
 ```
 
 나눌 때 이런 식으로 해줘야 에러가 뜨지 않고 계산이 됬음
+
+
+
+리스트에서 중복 값 제거 할 때
+
+```1c#
+sort_ip = arr_ip.Distinct()
+```
+
+
+
+UI에 있는 Name 객체를 cs 내부로 들고 와서 사용하고 싶을 때 
+
+```c#
+if (!this.Dispatcher.CheckAccess())
+{
+    this.Dispatcher.Invoke(new Action(delegate ()
+    {
+    	progressBar1.Value = count_th;
+        if (count_th== split_cnt) 
+        {
+        	Progress_btn.Visibility = Visibility.Visible;
+         }
+     }));
+
+}
+```
+
+위와 같은 형태로 사용하면 된다. progressbar의 name이 progressBar1인 것의 Value 값을 변경 해주고, Progress_btn을 visible하게 변경 해준다.
