@@ -1,0 +1,15 @@
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.csprojAssemblyReference.cache
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\MainWindow.g.cs
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\App.g.cs
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor_MarkupCompile.cache
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor_MarkupCompile.lref
+C:\Users\aideep\source\repos\Tor\Tor\bin\Debug\Tor.exe.config
+C:\Users\aideep\source\repos\Tor\Tor\bin\Debug\Tor.exe
+C:\Users\aideep\source\repos\Tor\Tor\bin\Debug\Tor.pdb
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\MainWindow.baml
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.g.resources
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.Properties.Resources.resources
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.csproj.GenerateResource.cache
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.csproj.CoreCompileInputs.cache
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.exe
+C:\Users\aideep\source\repos\Tor\Tor\obj\Debug\Tor.pdb

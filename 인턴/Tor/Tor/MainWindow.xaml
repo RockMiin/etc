@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="IPSCAN" HorizontalAlignment="Left" Height="76" Margin="262,107,0,0" VerticalAlignment="Top" Width="146" Click="IPSCAN_Click"/>
+        <Button Content="Progress" Name="Progress_btn" HorizontalAlignment="Left" Height="76" Margin="64,107,0,0" VerticalAlignment="Top" Width="132" Click="Progress_Click" />
+        <ProgressBar Name="progressBar1" HorizontalAlignment="Left" Height="34" Margin="64,209,0,0" VerticalAlignment="Top" Width="344" />
+
+    </Grid>
+</Window>
