@@ -43,6 +43,27 @@ deque를 선언해서 queue에서 맨 앞에 있는 원소를 pop해서 v에 넣
 
 
 
+++ 2020.12.30 추가
 
+BFS 코드 구성할 시 주의할 점
+
+BOJ 4963. 섬의 개수
+
+```python
+def bfs(v):
+
+    q= deque([v])
+    while q:
+        x, y= q.popleft()
+				# visited[x][y]= 1
+        tmp= [[1, 0], [0, 1], [-1, 0], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]]
+        for tmp_x, tmp_y in tmp:
+            dx, dy= x+tmp_x, y+tmp_y
+            if 0<=dx<h and 0<=dy<w and arr[dx][dy] and not visited[dx][dy]:
+                q.append([dx, dy])
+                visited[dx][dy] = 1 # append를 할 때 방문 처리를 해줘야 중복이 발생 x
+```
+
+처음에 코드를 구성할 때 위에 주석을 단 것과 같이 q에서 pop을 할 때 방문 처리를 해주었더니 **시간 초과**가 발생하였다. 즉 불필요한 탐색을 한다는 의미였는데 append를 할 시에 방문 처리를 해주면 해결이 된다. 이유는 tmp 반복문을 돌 때 방문 처리를 해주지 않으면 q에서 pop되기 전에는 방문 처리가 되지 않으므로 중복된 x, y가 들어가기 때문이다. 
 
  
